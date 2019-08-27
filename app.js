@@ -1,4 +1,4 @@
-document.getElementById('loan-form').addEventListener('submit', function(e){
+document.getElementById('loan-form').addEventListener('submit', e => {
   console.log(document.getElementById('results'));
   document.getElementById('results').setAttribute('style','display:none');
   document.getElementById('loading').setAttribute('style','display:block');
